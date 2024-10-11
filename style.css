@@ -1,0 +1,289 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+
+                  /* navigation style */
+
+.navigationbar{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #02254b;
+    margin-top: 0px;
+    box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 33px;
+}
+
+/* .navigationbar:hover{ 
+    background-color: #085788;
+} */
+
+.navfullnameancor{
+    color: white;
+    text-decoration: none;
+}
+.navfullnameancor:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navlogoancor{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.navlogoancor:hover{
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+
+.navlogopic{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+         /* content body/area style */
+
+.contentarea{
+    width: 100%;
+    height: 500px;
+    margin: 15px;
+}
+
+             /* banner style */
+
+.banner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.bannerprofilepic{
+    display: flex;
+    justify-content: center;
+}
+
+.bannerpic{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 10px;
+}
+/* .bannerpic:hover{
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px black;
+} */
+
+.bannerprofiledetail{
+    width: 30%;
+    padding: 15px;
+    margin-top: 0.55rem;
+}
+.nilesh{
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #02254b;
+}
+.kumaryadav{
+    font-size: 38px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #02254b;
+}
+
+.bannerpara{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bannerbtn{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #02254b;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 8px;
+    margin-top: 0.45rem;
+}
+.bannerbtn:hover{
+    background-color: #011327;
+    cursor: pointer;
+    box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 10px;
+}
+
+             /* projects style */
+
+.projecttitle{
+    font-size: 32px;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+}
+
+.prjct{
+    height: auto;
+    width: 55%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px 1px rgb(0 0 0 / .8);
+    margin-left: 22.5%;
+}
+.prjct:hover{
+    box-shadow: 5px 5px 20px 5px rgb(0 0 0 / .8);
+    cursor: pointer;
+}
+
+.projectimg{
+    height: 90%;
+    width: 100%;
+}
+.projectbtn{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #02254b;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 8px;
+    margin-left: 20%;
+    margin-top: 0.45rem;
+}
+.projectbtn:hover{
+    background-color: #011327;
+    cursor: pointer;
+}
+
+
+               /* education style */
+                 /* kec */
+.educationtitle{
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+    font-size: 32px;
+    /* box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 33px; */
+}
+.education{
+    height: 400px;
+    width: 100%;
+}
+        
+.keck{
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.keckdiv{
+    height: 170px;
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    margin: 8px;
+    box-shadow: 5px 5px 20px 1px rgb(0 0 0 / .8);
+}
+.keckdiv:hover{
+    box-shadow: 5px 5px 20px 5px rgb(0 0 0 / .8);
+}
+.kecklogo{
+    height: 100px;
+    width: 100px;
+    margin: 30px 10px 10px -10px;
+}
+
+.ability{
+    padding: 10px;
+    margin-left: 10px;
+}
+.institutename{
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+              /* dis */
+.disbgp{
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.disdiv{
+    height: 170px;
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    margin: 8px;
+    box-shadow: 5px 5px 20px 1px rgb(0 0 0 / .8);
+}
+.disdiv:hover{
+box-shadow: 5px 5px 20px 5px rgb(0 0 0 / .8);
+}
+.dislogo{
+    height: 100px;
+    width: 100px;
+    margin: 30px 10px 10px 10px;
+}
+
+.abilitydis{
+    padding: 0px 10px 10px 10px;
+    margin-left: 10px;
+}
+
+
+             /* foot style */
+.foot{
+    height: 168px;
+    width: 100%;
+    background-color: #02254b;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    padding-top: 30px;
+    box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 33px;
+}
+
+.nameaddress{
+    height: 100px;
+    width: 250px;
+    padding: 30px 0px 0px;
+    color: white;
+}
+.footname{
+    font-size: 24px;
+}
+.footaddress{
+    font-size: 16px;
+}
+
+.sociallink{
+    height: 100px;
+    width: 200px;
+    padding: 30px 0px 0px;
+    color: white;
+}
+
+.contactme{
+    height: 100px;
+    width: 250px;
+    padding: 30px 0px 0px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
