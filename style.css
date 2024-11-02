@@ -99,6 +99,19 @@
     color: #02254b;
 }
 
+@keyframes colorchange {
+    0% {color: green;}
+    30%{color: rgb(81, 135, 157);}
+    50%{color: orange;}
+    80%{color: red;}
+    100% {color: rgb(59, 149, 59);}
+}
+  
+.animate{
+    color: red;
+    animation: colorchange 4s linear infinite;
+}
+
 .bannerpara{
     font-family: 'Times New Roman', Times, serif;
 }
@@ -123,7 +136,7 @@
 .projecttitle{
     font-size: 32px;
     text-align: center;
-    padding: 10px 10px 0px 10px;
+    padding: 20px 10px 0px 10px;
 }
 
 .prjct{
@@ -165,7 +178,7 @@
                  /* kec */
 .educationtitle{
     text-align: center;
-    padding: 10px 10px 0px 10px;
+    padding: 20px 10px 0px 10px;
     font-size: 32px;
     /* box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 33px; */
 }
@@ -230,6 +243,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 .disdiv{
     height: 200px;
@@ -292,6 +306,14 @@ box-shadow: 5px 5px 20px 5px rgb(0 0 0 / .8);
     width: 250px;
     padding: 30px 0px 0px;
     color: white;
+}
+
+.contactme li{
+    list-style-type: none;
+}
+
+.sociallink li{
+    list-style-type: none;
 }
 
 a{
