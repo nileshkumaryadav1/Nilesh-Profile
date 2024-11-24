@@ -87,7 +87,7 @@
 } */
 
 .bannerprofiledetail{
-    width: 30%;
+    width: 50vw;
     padding: 15px;
     margin-top: 0.55rem;
 }
@@ -116,7 +116,24 @@
 }
 
 .bannerpara{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: poppins;
+}
+
+.btech{
+    font-size: 17px;
+    font-family: poppins;
+}
+
+.ce{
+    font-size: 17px;
+}
+
+.cep{
+    text-align: justify;
+    line-height: 18px;
+    border-top: 0.25px solid rgb(191, 191, 255);
+    padding-top: 5px;
+    margin-top: 2px;
 }
 
 .bannerbtn{
@@ -412,7 +429,7 @@ a:hover{
     }
     
     .bannerprofiledetail{
-        width: 100vw;
+        width: 94vw;
         padding: 15px;
         margin-top: 0.55rem;
     }
@@ -444,7 +461,16 @@ a:hover{
     .bannerpara{
         font-family: 'Times New Roman', Times, serif;
     }
+
+    .ce{
+        font-family: sans-serif;
+        font-size: 17px;
+    }
     
+    .cep{
+        text-align: justify;
+    }
+
     .bannerbtn{
         font-size: 12px;
         font-family: Arial, Helvetica, sans-serif;
@@ -646,3 +672,221 @@ a:hover{
 
 /* ...........Mobile version style end................ */
 
+
+/* ...............Tab and mobile style................................ */
+
+@media screen and (min-width: 400px) and (max-width: 570px) {
+
+    /* ....banner.... */
+    .banner{
+        display: block;
+    }
+
+    .bannerprofiledetail{
+        width: 94vw;
+        padding: 15px;
+        margin-top: 0.55rem;
+    }
+    .nilesh{
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #02254b;
+        text-align: center;
+    }
+    
+    .kumaryadav{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    @keyframes colorchange {
+        0% {color: green;}
+        30%{color: rgb(81, 135, 157);}
+        50%{color: orange;}
+        80%{color: red;}
+        100% {color: rgb(59, 149, 59);}
+    }
+      
+    .animate{
+        color: red;
+        animation: colorchange 4s linear infinite;
+    }
+    
+    .bannerpara{
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .ce{
+        font-family: sans-serif;
+        font-size: 17px;
+    }
+    
+    .cep{
+        text-align: justify;
+    }
+
+    .bannerbtn{
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #02254b;
+        color: white;
+        padding: 7px 15px;
+        border-radius: 8px;
+        margin-top: 0.45rem;
+        margin-left: 30%;
+    }
+
+    /* ....projects.... */
+
+    .prjct{
+        width: 75vw;
+        padding: 20px ;
+        margin: 20px 20px 30px 60px;
+    }
+
+    /* ....education.... */
+
+    .education{
+        height: 850px;
+        width: 100%;
+    }
+            
+    .keck{
+        height: 370px;
+        width: 100%;
+    }
+    .keckdiv{
+        height: 370px;
+        width: 80%;
+        display: inline;
+        padding: 1px 10px 10px 25px;
+    }
+
+    .disbgp{
+        height: 400px;
+        width: 100%;
+    }
+
+    .disdiv{
+        height: 380px;
+        width: 80%;
+        display: inline;
+        padding: 1px 10px 10px 25px;
+    }
+
+    /* ....foot... */
+
+    .foot{
+        display: block;
+        height: max-content;
+        padding-left: 50px;
+    }
+}
+
+/* .................laptop............. */
+
+@media screen and (min-width: 570px) and (max-width: 640px) {
+    
+    /* ....banner.... */
+
+    .bannerprofiledetail{
+        width: 70vw;
+    }
+
+    /* ....projects.... */
+
+    .prjct{
+        width: 75vw;
+        padding: 20px ;
+        margin: 20px 20px 30px 60px;
+    }    
+
+    /* ....education.... */
+    .keckdiv{
+        width: 95%;
+    }
+
+    .disdiv{
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 780px) {
+
+        /* ....banner.... */
+
+        .bannerprofiledetail{
+            width: 70vw;
+        }
+
+    /* ....projects.... */
+
+    .prjct{
+        width: 75vw;
+        padding: 20px ;
+        margin: 20px 20px 30px 60px;
+    }        
+    
+        /* ....education.... */
+    
+    .keckdiv{
+        width: 90%;
+    }
+
+    .disdiv{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1025px) {
+
+    /* ....banner.... */
+
+    .bannerprofiledetail{
+        width: 60vw;
+    }
+        /* ....projects.... */
+
+    .prjct{
+        width: 75vw;
+        padding: 20px ;
+        margin: 20px 20px 30px 120px;
+    }
+
+    /* ....education.... */    
+    
+    .keckdiv{
+        width: 80%;
+    }
+
+    .disdiv{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1026px) and (max-width: 1240px) {
+
+    /* ....banner.... */
+
+    .bannerprofiledetail{
+        width: 60vw;
+    }
+        /* ....projects.... */
+
+        .prjct{
+            width: 75vw;
+            padding: 20px ;
+            margin: 20px 20px 30px 60px;
+        }
+
+    /* ....education.... */    
+    
+    .keckdiv{
+        width: 80%;
+    }
+
+    .disdiv{
+        width: 80%;
+    }
+}
+/* .... Be Happy.... */
