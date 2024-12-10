@@ -177,6 +177,12 @@
     height: 90%;
     width: 100%;
 }
+
+.calc{
+    height: 70vh;
+    width: 100%;
+}
+
 .projectbtn{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
